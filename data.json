@@ -1,0 +1,93 @@
+{
+    "appetizers": [
+        {
+        "name": "cheesebites", 
+        "ingredients": ["cheese", "sour cream"],
+    "description": "mini"
+    },{
+    "name": "potatoe wedges",
+    "ingredients": ["potatoe", "salt"],
+    "description": "mini"
+   
+    },{
+      "name":  "cheese dip",
+      "ingredients": ["cheese", "sour cream"],
+      "description": "spicy"
+    }
+
+
+    ],
+ 
+
+
+"Cold sandwiches": [
+      {
+        "name": "Tuna Club", 
+        "ingredients": ["cheese", "tuna"],
+    "description": "big"
+    },{
+    "name": "Blt",
+    "ingredients": ["bacon", "pickles"],
+    "description": "big"
+   
+    },{
+      "name":  "Turkey",
+      "ingredients": ["cheese", "lettuce"],
+      "description": "spicy"
+    }  
+],
+
+"Hot sandwiches": [
+    {
+    "name": "Grill cheese", 
+    "ingredients": ["cheese", "sour cream"],
+"description": "hot"
+},{
+"name": "Chicken Club",
+"ingredients": ["cheese", "mayo"],
+"description": "spicy"
+
+},{
+  "name":  "Spicy Turkey",
+  "ingredients": ["cheese", "turkey"],
+  "description": "spicy"
+}
+  ] ,
+
+
+"Dessert": [
+{
+    "name": "lemon cake", 
+    "ingredients": ["lemon","flour", "sour cream"],
+"description": "sour"
+},{
+
+"name": "cookies",
+"ingredients": ["peanut butter","butter", "salt"],
+"description": "tasty"
+
+},{
+  "name":  "Icecream",
+  "ingredients": ["milk", " cream"],
+  "description": "strawberry taste"
+}
+],
+    "Drinks": 
+     [
+        {
+        "name": "Coke", 
+        "ingredients": ["Ice", "syrup"],
+    "description": "sweet"
+    },{
+    "name": "Tea",
+    "ingredients": ["Lemon", "sugar"],
+    "description": "sweet"
+   
+    },{
+      "name":  "water",
+      "ingredients": ["ice"],
+      "description": "distilled"
+    }
+
+     ]
+    
