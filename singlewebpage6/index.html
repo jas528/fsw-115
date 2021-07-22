@@ -1,0 +1,78 @@
+<!--
+
+  Built for the FSW 113 NModern JavaScript Course for new Web Developers
+
+ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FSW 113 Modern JavaScript</title>
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a>
+          </li>
+          <li><a href="/Assignmnet1.html">Assignmnet1</a>
+          </li>
+          <li><a href="/about.html">About Student</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <img src="img/logo.png" class="bordered-image" />
+      </div>
+      <div>This is a site to for learning Modern JavaScript.</div>
+    </header>
+    <section id="main">
+      <p> Search for projects in: </span>
+        <a href="https://swapi.dev/api/">Star War API</a>
+        </p>
+        
+      <form class="bordered-image simple-form " id="starWarApiSearchForm" >
+        <div class="form-group">
+          <label for="peopleId">People ID:</label>
+          <select name="peopleId" id="peopleId">
+            <option selected>1</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>         
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br/>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <input class="alert alert-warning" role="alert" type="submit" value="Search" />
+          </div>
+        </div>
+
+      </form>
+
+      <div class="container">
+        <div class="row">
+          <button class="alert alert-primary" role="alert" id="toggleButton">Hide</button>    
+        </div>
+        <pre class="prettyprint lang-html">    
+          <code  class="prettyprint language-json" id="resultList">This is where results will go</code>
+        </pre>
+      </div>
+    </section>
+    <footer>
+      &copy; FSW 113 Modern JavaScript
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

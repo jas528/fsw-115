@@ -1,0 +1,42 @@
+/* site.css */
+
+
+#results {
+  padding: 2px;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.container {
+  width: 989px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+}
+
+header nav {
+  float: right;
+  margin-right: 5px;
+}
+
+header nav li {
+  display: inline;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
