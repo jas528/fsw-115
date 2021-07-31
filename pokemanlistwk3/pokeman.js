@@ -10,7 +10,27 @@ xhttp.onreadystatechange = function() {
         h1.textContent= response.results[i].name
         document.body.appendChild(h1)     
 
+ }}};
+xhr.open("GET","https://swapi.dev/api/people/1/",true),
+xhr.send()
 
-       }}};
-xhttp.open("GET","https://pokeapi.co/api/v2/pokemon", true),
-xhttp.send();
+xhr.onreadystatechange = function(){
+if(xhr.readyState === 4 && xhr.status === 200){
+console.log(xhr.responseText)
+
+let data =JSON.parse(xhr.responseText)
+showData(data)
+
+console.log(data)
+
+}else if (xhr.readyState == 4 && xhr.status !== 200){
+    console.log(xhr.responseText)
+}
+ function showData(data){
+     console.log(data)
+     const character =document.createElement('h1')
+ character.textContent = data.name
+ document.body.appendChild(character)
+    }
+
+
